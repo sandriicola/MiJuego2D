@@ -30,7 +30,7 @@ public class Dead : MonoBehaviour
             Debug.Log("has morido");
          //gestorSonido.GetComponent<AudioSource>().PlayOneShot(gestorSonido.GetComponent<audioManager>().sonidoMuerte,1f);
          gestorSonido.GetComponent<audioManager>().sonidoDead();
-         principalScript.Vida = -1;
+         principalScript.Vida -= 1;
          Personaje.transform.position = new Vector3(0f,-0.4650001f,0f);
          contadorTrigger++;
          }

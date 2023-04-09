@@ -5,7 +5,7 @@ using UnityEngine;
 public class principalScript : MonoBehaviour
 {
     public static int Score = 0;
-    public static int Vida = 3;
+    public static int Vida = 10;
     public static int Enemigos = 0;
     public GUISkin miSkin;
     public int AnchoPantalla;
